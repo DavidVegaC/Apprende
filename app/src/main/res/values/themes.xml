@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Apprende" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppThemeApprende" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--colorPrimary: color para la barra de aplicaciones y otros elementos primarios de la interfaz de usuario-->
+        <item name="colorPrimary"> @color/md_light_blue_600</item>
+        <!--colorPrimayDark: Una variante más oscura del color primario, utilizada para la barra de estado (en Android 5.0+) y las barras contextuales de la aplicación-->
+        <item name="colorPrimaryDark">@color/md_light_blue_800</item>
+        <!--colorAccent: un color secundario para controles como casillas de verificación y campos de texto-->
+        <item name="colorAccent">@color/md_light_blue_300</item>
+
+        <item name="android:textColor">@color/md_white_1000</item>
+        <!--        <item name="android:textColorPrimary">@color/md_white_1000</item>-->
+        <!--        <item name="android:textColorSecondary">@color/md_black_assac</item>-->
+        <!--        <item name="android:textColorHint">@color/md_white_1000</item>-->
+
+        <item name="actionMenuTextColor">@color/md_light_blue_600</item>
+
+
+        <item name="android:windowBackground">@drawable/background</item>
+
+
+        <!--        &lt;!&ndash;controla el estado 'normal' de componentes como un EditText no seleccionado y casillas de verificación y botones de radio no seleccionados&ndash;&gt;-->
+        <!--        <item name="colorControlNormal">@color/md_blue_800</item>-->
+        <!--        &lt;!&ndash;controla el color ondulado&ndash;&gt;-->
+        <!--        <item name="colorControlHighlight">@color/md_amber_500</item>-->
+        <!--        &lt;!&ndash;Cambia el color al pasar de un radio button a otro / activo /inactivo&ndash;&gt;-->
+        <!--        <item name="colorSwitchThumbNormal">@color/md_purple_800</item>-->
+        <!--        &lt;!&ndash;Si se quiere que el action bar superponga al Toolbar&ndash;&gt;-->
+        <!--        <item name="windowActionModeOverlay">true</item>-->
+        <!--        <item name="actionModeBackground">@color/md_amber_500</item>-->
+    </style>
+</resources>
