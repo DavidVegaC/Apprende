@@ -10,7 +10,8 @@
         android:roundIcon="@drawable/book"
         android:supportsRtl="true"
         android:theme="@style/AppThemeApprende">
-        <activity android:name=".View.Activity.SignUpActivity"></activity>
+        <activity android:name=".View.Activity.StartUpActivity"></activity>
+        <activity android:name=".View.Activity.SignUpActivity" />
         <activity
             android:name=".View.Activity.SplashActivity"
             android:theme="@style/SplashScreen">
@@ -20,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".View.Activity.MainActivity"></activity>
+        <activity android:name=".View.Activity.MainActivity" />
         <activity android:name=".View.Activity.LoginActivity" />
     </application>
 
