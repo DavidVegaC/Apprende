@@ -80,7 +80,7 @@
             app:layout_constraintTop_toTopOf="@+id/imageView4">
 
             <EditText
-                android:id="@+id/editTextTextPersonEmail"
+                android:id="@+id/etPersonEmailRegister"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -93,7 +93,7 @@
                 android:textSize="14sp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonPassword"
+                android:id="@+id/etPersonPasswordRegister"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -108,7 +108,7 @@
                 android:textSize="14sp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/constraintLayoutBtnLogin"
+                android:id="@+id/clBtnRegister"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
