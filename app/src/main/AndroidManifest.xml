@@ -12,7 +12,10 @@
         android:roundIcon="@drawable/book"
         android:supportsRtl="true"
         android:theme="@style/AppThemeApprende">
-        <activity android:name=".View.Activity.StartUpActivity"></activity>
+        <activity
+            android:name=".View.Activity.StartUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Apprende.NoActionBar" />
         <activity android:name=".View.Activity.SignUpActivity" />
         <activity
             android:name=".View.Activity.SplashActivity"

@@ -1,27 +1,20 @@
 package com.team404.apprende.View.Activity;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 import com.team404.apprende.R;
 
 public class StartUpActivity extends AppCompatActivity {
 
-    private Button btSignOff;
+    private ImageView btSignOff;
     FirebaseAuth firebaseAuth;
     FirebaseUser firebaseUser;
 
