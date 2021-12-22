@@ -196,7 +196,8 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:id="@+id/lyFacebook"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:gravity="center_horizontal"
@@ -211,7 +212,7 @@
                     app:srcCompat="@drawable/facebook" />
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/tvFacebook"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Iniciar sesión con Facebook"
