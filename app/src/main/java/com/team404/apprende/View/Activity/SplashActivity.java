@@ -7,6 +7,9 @@ import android.os.Bundle;
 
 import com.team404.apprende.R;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class SplashActivity extends AppCompatActivity {
 
     private static final long SPLASH_SCREEN_DELAY = 1000;
@@ -17,10 +20,10 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        Intent intent=new Intent(SplashActivity.this, MainActivity.class);
+        /*Intent intent=new Intent(SplashActivity.this, StartUpActivity.class);
         startActivity(intent);
-        finish();
-        /*TimerTask task = new TimerTask()
+        finish();*/
+        TimerTask task = new TimerTask()
         {
             @Override
             public void run() {
@@ -30,6 +33,6 @@ public class SplashActivity extends AppCompatActivity {
             }
         };
         Timer timer = new Timer();
-        timer.schedule(task, SPLASH_SCREEN_DELAY);*/
+        timer.schedule(task, SPLASH_SCREEN_DELAY);
     }
 }

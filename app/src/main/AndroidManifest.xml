@@ -2,26 +2,44 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.team404.apprende">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
-        android:name=".root.MyApp"
         android:allowBackup="true"
         android:icon="@drawable/book"
         android:label="@string/app_name"
         android:roundIcon="@drawable/book"
         android:supportsRtl="true"
         android:theme="@style/AppThemeApprende">
-        <activity android:name=".View.Activity.SignUpActivity"></activity>
+        <activity
+            android:name=".View.Activity.StartUpActivity"
+            android:theme="@style/Theme.Apprende.NoActionBar" />
+
+        <activity android:name=".View.Activity.SignUpActivity" />
+
         <activity
             android:name=".View.Activity.SplashActivity"
             android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".View.Activity.MainActivity"></activity>
+
+        <activity android:name=".View.Activity.MainActivity" />
         <activity android:name=".View.Activity.LoginActivity" />
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:name="com.facebook.FacebookActivity" android:configChanges= "keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:label="@string/app_name" />
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

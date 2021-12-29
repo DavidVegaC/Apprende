@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/davic/OneDrive/Documentos/David/APPRENDE/Apprende/app/src/main/res/layout/activity_login-LAPTOP-CSQ287VG.xml" value="0.4158878504672897" />
-        <entry key="..\:/Users/davic/OneDrive/Documentos/David/APPRENDE/Apprende/app/src/main/res/layout/activity_login.xml" value="0.1648148148148148" />
-        <entry key="..\:/Users/davic/OneDrive/Documentos/David/APPRENDE/Apprende/app/src/main/res/layout/activity_start_up.xml" value="0.2037037037037037" />
+        <entry key="..\:/David/APPRENDE/Apprende/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/David/APPRENDE/Apprende/app/src/main/res/layout/fragment_main.xml" value="0.18020833333333333" />
+        <entry key="..\:/David/APPRENDE/Apprende/app/src/main/res/layout/fragment_student_intro.xml" value="0.18020833333333333" />
       </map>
     </option>
   </component>

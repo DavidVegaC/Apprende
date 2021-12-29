@@ -32,7 +32,6 @@ public class StartUpActivity extends AppCompatActivity {
     private void initComponent(){
         btSignOff = findViewById(R.id.btSignOff);
 
-
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseUser = firebaseAuth.getCurrentUser();
 
