@@ -2,7 +2,4 @@
     <string name="app_name">APPRENDE</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="facebook_app_id">982574605806337</string>
-    <string name="fb_login_protocol_scheme">fb982574605806337</string>
-
 </resources>

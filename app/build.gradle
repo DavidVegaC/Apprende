@@ -41,7 +41,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.0.0'       /* BASE DE DATOS DE FIREBASE */
     implementation 'com.google.firebase:firebase-storage:20.0.0'        /* ALMACENAMIENTO DE FIREBASE */
 
-    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'    /* AUTENTICACIÓN CON FACEBOOK */
+    implementation 'com.facebook.android:facebook-android-sdk:[8,9)'    /* AUTENTICACIÓN CON FACEBOOK */
 
     implementation 'com.facebook.android:facebook-login:[8.1)'
 
@@ -50,6 +50,3 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }
-
-apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
