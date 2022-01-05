@@ -113,6 +113,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
                         <LinearLayout
+                            android:id="@+id/llAprende"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="0.3"
@@ -132,6 +133,7 @@
                                 android:layout_margin="5dp"/>
                         </LinearLayout>
                         <LinearLayout
+                            android:id="@+id/llJuegos"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="0.3"
@@ -151,6 +153,7 @@
                                 android:layout_margin="5dp"/>
                         </LinearLayout>
                         <LinearLayout
+                            android:id="@+id/llInventario"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="0.3"

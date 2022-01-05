@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -12,8 +13,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.team404.apprende.R;
 
-public class StartUpActivity extends AppCompatActivity {
+public class StartUpActivity extends AppCompatActivity implements View.OnClickListener{
 
+    private LinearLayout llJuegos;
     private ImageView btSignOff;
     FirebaseAuth firebaseAuth;
     FirebaseUser firebaseUser;
@@ -30,6 +32,8 @@ public class StartUpActivity extends AppCompatActivity {
     }
 
     private void initComponent(){
+        llJuegos = findViewById(R.id.llJuegos);
+        llJuegos.setOnClickListener(this);
         btSignOff = findViewById(R.id.btSignOff);
 
         firebaseAuth = FirebaseAuth.getInstance();
@@ -71,4 +75,14 @@ public class StartUpActivity extends AppCompatActivity {
         super.onStart();
     }
 
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.llJuegos:
+                    startActivity(new Intent(StartUpActivity.this,JuegosActivity.class));
+                break;
+            default:
+                break;
+        }
+    }
 }
